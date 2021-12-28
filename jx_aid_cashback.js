@@ -1,3 +1,23 @@
+/*
+活动入口：京喜购物返红包助力
+定时收鹅蛋,兑换金币
+已支持IOS双京东账号,Node.js支持N个京东账号
+脚本兼容: QuantumultX, Surge, Loon, JSBox, Node.js
+============Quantumultx===============
+[task_local]
+#京喜购物返红包助力
+44 */6 * * * https://raw.githubusercontent.com/pray1412/fruit/main/jx_aid_cashback.js, tag=京喜购物返红包助力, img-url=https://raw.githubusercontent.com/58xinian/icon/master/jdte.png, enabled=true
+
+================Loon==============
+[Script]
+cron "44 */6 * * *" script-path=https://raw.githubusercontent.com/pray1412/fruit/main/jx_aid_cashback.js,tag=京喜购物返红包助力
+
+===============Surge=================
+京喜购物返红包助力 = type=cron,cronexp="44 */6 * * *",wake-system=1,timeout=3600,script-path=https://raw.githubusercontent.com/pray1412/fruit/main/jx_aid_cashback.js
+
+============小火箭=========
+京喜购物返红包助力 = type=cron,script-path=https://raw.githubusercontent.com/pray1412/fruit/main/jx_aid_cashback.js, cronexpr="44 */6 * * *", timeout=3600, enable=true
+ */
 let common = require("./function/common");
 let $ = new common.env('京喜购物返红包助力');
 let min = 5,
