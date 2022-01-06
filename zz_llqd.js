@@ -42,7 +42,7 @@ async function goSigm(){
    }
   //第二个签到
  try {
-       console.log("开始发送请求..............网址https://www.ecyjc.com/user");	
+       console.log("开始发送请求..............网址https://ovo.ecyjc.com/user");	
         const ck = await ecyjc_dl();
         console.log("ck===>",ck);
         if(ck){
@@ -52,7 +52,7 @@ async function goSigm(){
    } catch (e) {
        $.error = `签到出错\n`;
    } finally{
-       console.log("结束发送请求..............网址https://www.ecyjc.com/user");
+       console.log("结束发送请求..............网址https://ovo.ecyjc.com/user");
    }
 
 
@@ -184,7 +184,7 @@ async function LLQD(cookie) {
 async function ecyjc_dl() {
  return new Promise(async resolve => {
 	  //填自己的用户名密码Mary，Mary88888888
-      const body="{\"email\": \"Mary\",\"passwd\": \"Mary88888888\",\"code\":\"\"}";
+      const body="{\"email\": \"252986987@qq.com\",\"passwd\": \"252986987\",\"code\":\"\"}";
       const options = {
 		  "url": "https://ovo.ecyjc.com/auth/login",
           "body":body,
