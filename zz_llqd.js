@@ -69,7 +69,7 @@ async function login() {
       const body="{\"email\": \"1412\",\"passwd\": \"252986987\"}";
       //console.log(body);
       const options = {
-		  "url": "https://j05.space/signin?c="+times,
+		  "url": "http://j.luxury/signin?c="+times,
                   "body":body,
 		  "headers": {
 			"Accept": "application/json,text/plain, */*",
@@ -186,7 +186,7 @@ async function ecyjc_dl() {
 	  //填自己的用户名密码Mary，Mary88888888
       const body="{\"email\": \"252986987@qq.com\",\"passwd\": \"252986987\",\"code\":\"\"}";
       const options = {
-		  "url": "https://ovo.ecyjc.com/auth/login",
+		  "url": "https://owo.ecycloud.com/auth/login",
           "body":body,
 		  "headers": {
 			"Accept": "application/json,text/plain, */*",
