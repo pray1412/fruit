@@ -77,8 +77,8 @@ async function login() {
 			"Accept-Encoding": "gzip, deflate, br",
 			"Accept-Language": "zh-cn",
 			"Connection": "keep-alive",
-                        "origin": "https://j05.space",
-			"Referer": "https://j05.space/signin",
+                        "origin": "https://j.luxury",
+			"Referer": "https://j.luxury/signin",
 			"user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
 		  },
 		  "timeout": 10000
@@ -130,7 +130,7 @@ async function login() {
 async function LLQD(cookie) {
     return new Promise(async resolve => {	   	   
        const options = {
-		  "url": "https://j05.space/user/checkin?c="+times,
+		  "url": "https://j.luxury/user/checkin?c="+times,
 		  "headers": {
 			"Accept": "application/json,text/plain, */*",
 			"Content-Type": "application/x-www-form-urlencoded",
@@ -138,8 +138,8 @@ async function LLQD(cookie) {
 			"Accept-Language": "zh-cn",
 			"Connection": "keep-alive",
 			"Cookie": cookie,
-			"origin": "https://j05.space",
-			"Referer": "https://j05.space/user?ran="+times,
+			"origin": "https://j.luxury",
+			"Referer": "https://j.luxury/user?ran="+times,
 			"user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
 		  },
 		  "timeout": 10000
@@ -194,8 +194,8 @@ async function ecyjc_dl() {
 			"Accept-Encoding": "gzip, deflate, br",
 			"Accept-Language": "zh-cn",
 			"Connection": "keep-alive",
-            "origin": "https://ovo.ecyjc.com",
-			"Referer": "https://ovo.ecyjc.com/auth/login",
+            "origin": "https://owo.ecycloud.com",
+			"Referer": "https://owo.ecycloud.com/auth/login",
 			"user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
 		  },
 		  "timeout": 10000
