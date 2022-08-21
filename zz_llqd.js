@@ -28,7 +28,7 @@ const times=new Date().getTime();
 async function goSigm(){
    //第一个签到
    try {
-       console.log("开始发送请求..............网址https://j05.space/user");	
+       console.log("开始发送请求..............网址https://j.luxury/user");	
         const ck = await login();
         console.log("ck===>",ck);
         if(ck){
@@ -38,11 +38,11 @@ async function goSigm(){
    } catch (e) {
        $.error = `签到出错\n`;
    } finally{
-       console.log("结束发送请求..............网址https://j05.space/user");
+       console.log("结束发送请求..............网址https://j.luxury/user");
    }
   //第二个签到
  try {
-       console.log("开始发送请求..............网址https://ovo.ecyjc.com/user");	
+       console.log("开始发送请求..............网址https://owo.ecycloud.com/user");	
         const ck = await ecyjc_dl();
         console.log("ck===>",ck);
         if(ck){
@@ -52,7 +52,7 @@ async function goSigm(){
    } catch (e) {
        $.error = `签到出错\n`;
    } finally{
-       console.log("结束发送请求..............网址https://ovo.ecyjc.com/user");
+       console.log("结束发送请求..............网址https://owo.ecycloud.com/user");
    }
 
 
@@ -240,7 +240,7 @@ async function ecyjc_dl() {
 async function ecyjc_qd(cookie) {
     return new Promise(async resolve => {	   	   
        const options = {
-		  "url": "https://ovo.ecyjc.com/user/checkin",
+		  "url": "https://owo.ecycloud.com/user/checkin",
 		  "headers": {
 			"Accept": "application/json,text/plain, */*",
 			"Content-Type": "application/x-www-form-urlencoded",
@@ -248,8 +248,8 @@ async function ecyjc_qd(cookie) {
 			"Accept-Language": "zh-cn",
 			"Connection": "keep-alive",
 			"Cookie": cookie,
-			"origin": "https://ovo.ecyjc.com",
-			"Referer": "https://ovo.ecyjc.com/user",
+			"origin": "https://owo.ecycloud.com",
+			"Referer": "https://owo.ecycloud.com/user",
             "x-requested-with": "XMLHttpRequest",
 			"user-agent": "Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.63 Safari/537.36"
 		  },
