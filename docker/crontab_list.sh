@@ -16,6 +16,8 @@
 20 4,16 * * * node /scripts/jd_fruit_help.js >> /scripts/logs/jd_fruit_help.log 2>&1
 # 东东农场日常任务
 5 6-18/6 * * * node /scripts/jd_fruit_task.js >> /scripts/logs/jd_fruit_task.log 2>&1
+# 东东农场自动种植
+20 5,12,21 * * * node /scripts/jd_farm_automation.js >> /scripts/logs/jd_farm_automation.log 2>&1
 
 # 东东健康社区
 13 1,6,22 * * * node /scripts/jd_health.js >> /scripts/logs/jd_health.log 2>&1
