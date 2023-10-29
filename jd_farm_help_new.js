@@ -1,6 +1,6 @@
 /*
 新农场助力
-33 3,9 * * * jd_farm_help_new.js
+33 9,15 * * * jd_farm_help_new.js
 export NEWFRUITCODES = 'xxx&xxx' 可指定助力码助力，多个用&分割，不指定则自动搜集任务助力码
 */
 
