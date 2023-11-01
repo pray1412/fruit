@@ -1,7 +1,7 @@
 /*
 新东东农场幸运转盘
 
-cron "55 5 * * *" script-path=jd_dongDongFarm_draw.js, tag=新东东农场幸运转盘
+cron "55 7 * * *" script-path=jd_dongDongFarm_draw.js, tag=新东东农场幸运转盘
 
  */
 const $ = new Env('新东东农场幸运转盘')
