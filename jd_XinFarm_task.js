@@ -14,7 +14,7 @@ jd_XinFarm_Notify // 是否推送通知（true/false），默认不推送
 
 2024.3.6  建议上代理
 
-cron:45 2-22/6 * * *
+cron:45 9,14 * * *
 
 */
 
