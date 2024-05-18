@@ -6,11 +6,11 @@
 环境变量：
 jd_XinFarm_Notify // 是否推送通知（true/false），默认不推送
 
-cron:45 6,16 * * *
+cron:45 8,16 * * *
 ============Quantumultx===============
 [task_local]
 #新东东农场助力
-45 6,16 * * * jd_XinFarm_help.js, tag=新东东农场助力, enabled=true
+45 8,16 * * * jd_XinFarm_help.js, tag=新东东农场助力, enabled=true
 
 */
 
