@@ -8,7 +8,7 @@
   "scripts": [
     {
       "match_rule": "^https?:\\/\\/mall\\.meituan\\.com\\/api\\/c\\/mallcoin\\/checkIn\\/queryTaskListInfoV.\\?",
-      "script_path": "https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.cookie.js",
+      "script_path": "https://raw.githubusercontent.com/pray1412/fruit/refs/heads/main/Loon/Scripts/mall.meituan.cookie.js",
       "script_type": "request_header",
       "enable": true,
       "order": 1
