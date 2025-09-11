@@ -1,0 +1,24 @@
+{
+  "manifest_version": 2,
+  "name": "美团买菜-买菜币Token获取",
+  "version": "1.0.0",
+  "description": "自动获取美团买菜买菜币相关会话Token，支持3种触发方式",
+  "author": "JoJoJotarou（插件格式适配）",
+  "homepage": "https://github.com/JoJoJotarou/myScript",
+  "scripts": [
+    {
+      "match_rule": "^https?:\\/\\/mall\\.meituan\\.com\\/api\\/c\\/mallcoin\\/checkIn\\/queryTaskListInfoV.\\?",
+      "script_path": "https://raw.githubusercontent.com/JoJoJotarou/myScript/master/script/meituan/mall.meituan.cookie.js",
+      "script_type": "request_header",
+      "enable": true,
+      "order": 1
+    }
+  ],
+  "instructions": [
+    "使用说明1：美团APP → 美团买菜 → 我的 → 买菜币，等待QX提示成功即可",
+    "使用说明2：若方式1失败，可进入「买菜币→去使用」，再退回上一级，触发提示",
+    "使用说明3：若前两种均失败，在「买菜币」页面左滑一半（不真退出）再松手，触发提示",
+    "注意：插件启用后，需通过上述方式触发一次，才算完成Token获取"
+  ],
+  "permissions": ["network_request_interception", "persistent_storage"]
+}
